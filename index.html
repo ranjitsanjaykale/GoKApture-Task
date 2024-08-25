@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id = "div1">
+    <div id="toolbar"> 
+        <label for="search">Search: </label>
+        <input type="text" id="search" placeholder="Search...">
+        <br>
+        <label for="fontSize">Font Size: </label>
+        <select id="fontSize">
+            <option value="14px">14px</option>
+            <option value="16px">16px</option>
+            <option value="18px">18px</option>
+        </select>
+        <br>
+        <label for="textAlign">Text Align: </label>
+        <select id="textAlign">
+            <option value="left">Left</option>
+            <option value="center">Center</option>
+            <option value="right">Right</option>
+        </select>
+        <br>
+        <button id="undo">Undo</button>
+        
+        <button id="redo">Redo</button>
+        <br>
+    </div>
+    
+      <span>
+        <div id="grid-container"></div>
+    </span>  
+    <br>
+    
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
